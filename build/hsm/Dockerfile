@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 MAINTAINER Roland Bracewell Shoemaker <roland@letsencrypt.org>
 
 RUN apt-get update && apt-get install -y softhsm git-core build-essential cmake libssl-dev libseccomp-dev && \
