@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 RUN yum -y install systemd openssh openssh-clients openssh-server iproute net-tools dmidecode tar which pciutils rsyslog tar sudo vim wget curl crontabs; \
     yum upgrade -y && \
     yum clean all;
